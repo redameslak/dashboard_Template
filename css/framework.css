@@ -1,0 +1,494 @@
+/* start  box  */
+.d-flex {
+    display: flex;
+}
+
+.f1 {
+    flex: 1;
+}
+
+.cf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.df-al {
+    display: flex;
+    align-items: center;
+}
+
+.df-jc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.df-cen {
+    display: flex;
+    justify-content: center;
+}
+
+.df-jc-al {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gp-20 {
+    gap: 20px;
+}
+
+.tr {
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    .bc-mo {
+        display: block;
+    }
+}
+
+@media (max-width:767px) {
+    .hi-mo {
+        display: none;
+    }
+}
+
+.db {
+    display: block;
+}
+
+/* end  box  */
+/* Start Padding + Margin  */
+.p0 {
+    padding: 0;
+}
+
+.pt-0 {
+    padding: 0;
+}
+
+.pb-0 {
+    padding: 0;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+/* margin */
+.m0 {
+    margin: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-20 {
+    margin-right: 20px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* end Padding + Margin  */
+/* start color  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-twt {
+    background-color: #1da1f2;
+}
+
+.bg-ln {
+    background-color: #0077b5;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-gray {
+    color: gray;
+}
+
+.c-ln {
+    color: #0077b5;
+}
+
+.c-r {
+    color: var(--red-color);
+}
+
+.c-twt {
+    color: #1da1f2;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-green {
+    color: var(--green-color)
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+/* end color  */
+/* start position */
+.p-relt {
+    position: relative;
+}
+
+.ab-r {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 13px;
+}
+
+.ab-l {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+/* end position */
+/* start fonts  */
+.txt-c {
+    text-align: center;
+}
+
+.txt-r {
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    .txt-c-mo {
+        text-align: center;
+    }
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.li-he {
+    line-height: 1.5;
+}
+
+/* end fonts  */
+/* start border  */
+.r-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.r-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.r-50 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.w-h-r {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.b-t {
+    border-bottom: 1px solid #ccc;
+}
+
+.b-b {
+    border-top: 1px solid #ccc;
+}
+
+.bor {
+    border: 1px solid #ccc;
+}
+
+/* end border  */
+/* start width  */
+.ful-w {
+    width: 100%;
+}
+
+.w-h {
+    width: 40px;
+    height: 40px;
+}
+
+/* end width  */
+
+/* start varibules */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* end  varibules */
+/* start buttons  */
+.but-shap {
+    color: white;
+    width: fit-content;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.bl-but {
+    background-color: var(--blue-color);
+    color: white;
+    padding: 8px 15px;
+    width: fit-content;
+    border: none;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    cursor: pointer;
+}
+
+.bl-but,
+.gray-but {
+    text-transform: capitalize;
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.gray-but {
+    padding: 4px 9px;
+    background-color: #eee;
+    color: black;
+    font-size: 13px;
+}
+
+.bl-but:hover {
+    background-color: var(--blue-alt-color);
+}
+
+/* end button  */
